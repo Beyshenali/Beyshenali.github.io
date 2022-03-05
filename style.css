@@ -12,8 +12,7 @@ body {
 .container {
   width: 1140px;
   margin: 0 auto;
-  padding: 15px;
-  /*border: 1px solid black;*/
+  padding: 5px;
 }
 .header a {
   color: #fff;
@@ -21,7 +20,7 @@ body {
 }
 .header-navigation {
   align-items: center;
-  padding: 10px 0;
+  padding: 15px 0;
   background-color: blue;
 }
 .header-logo {
@@ -40,10 +39,38 @@ body {
 }
 .menu-link {
   text-transform: uppercase;
-  padding: 25px 15px;
+  padding: 20px 15px;
   font-size: 15px;
   transition: background-color 0.6s;
 }
 .menu-link:hover {
   background-color: rgb(14, 0, 13);
+}
+.intro {
+  padding: 60px 0;
+}
+.intro-inner {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 20px;
+}
+.intro-img {
+  width: 250;
+  height: 250;
+  border-radius: 50%;
+}
+.intro-left {
+  width: 25%;
+}
+.intor-right {
+  width: 60%;
+}
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+.footer {
+  min-height: 100px;
+  background-color: blue;
 }
