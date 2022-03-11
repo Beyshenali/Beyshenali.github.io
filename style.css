@@ -19,12 +19,24 @@ body {
   text-decoration: none;
 }
 .header-navigation {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
   padding: 15px 0;
   background-color: blue;
 }
 .header-logo {
-  float: left;
+  display: inline-block;
+  width: 20%;
+  padding: 0px 30px;
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+.claer-fix {
+  content: "";
+  display: table;
+  clear: both;
 }
 .menu {
   display: flex;
@@ -40,7 +52,7 @@ body {
 .menu-link {
   text-transform: uppercase;
   padding: 20px 15px;
-  font-size: 15px;
+  font-size: 16px;
   transition: background-color 0.6s;
 }
 .menu-link:hover {
@@ -71,6 +83,21 @@ body {
   text-decoration: none;
 }
 .footer {
+  display: flex;
+  padding: 0;
+  margin: 0;
   min-height: 100px;
   background-color: blue;
+}
+.footer-logo {
+  padding: 42px;
+}
+.footer-link {
+  text-transform: uppercase;
+  padding: 42px 100px;
+  font-size: 15px;
+  transition: background-color 0.6s;
+}
+.footer-link:hover {
+  background-color: rgb(14, 0, 13);
 }
