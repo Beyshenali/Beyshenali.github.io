@@ -24,14 +24,16 @@ body {
   align-items: center;
   padding: 15px 0;
   background-color: blue;
+  /*border: 2px solid red;*/
 }
 .header-logo {
   display: inline-block;
   width: 20%;
-  padding: 0px 30px;
+  padding: 0px 15px;
   font-size: 20px;
   font-weight: 800;
   letter-spacing: 1px;
+  /*border: 2px solid red;*/
 }
 .claer-fix {
   content: "";
@@ -75,8 +77,12 @@ body {
 .intro-left {
   width: 25%;
 }
-.intor-right {
+.intro-right {
   width: 60%;
+}
+.main {
+  width: 1140px;
+  height: 250px;
 }
 .footer a {
   color: #fff;
@@ -84,9 +90,8 @@ body {
 }
 .footer {
   display: flex;
-  padding: 0;
-  margin: 0;
-  min-height: 100px;
+  margin: auto;
+  min-height: 25px;
   background-color: blue;
 }
 .footer-logo {
